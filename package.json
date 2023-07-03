@@ -1,6 +1,6 @@
 {
   "name": "roblox_mesh_compiler",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "compiles .obj to .mesh, atm it's one direction",
   "main": "./src/main.js",
   "directories": {
