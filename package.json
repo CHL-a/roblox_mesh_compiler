@@ -1,0 +1,30 @@
+{
+  "name": "roblox_mesh_compiler",
+  "version": "1.0.0",
+  "description": "compiles .obj to .mesh, atm it's one direction",
+  "main": "./src/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHL-a/roblox_mesh_compiler.git"
+  },
+  "author": "chl-a",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CHL-a/roblox_mesh_compiler/issues"
+  },
+  "homepage": "https://github.com/CHL-a/roblox_mesh_compiler#readme",
+  "devDependencies": {
+    "@types/node": "20.2.5"
+  },
+  "dependencies": {
+    "@astronautlabs/bitstream": "^4.1.3",
+    "@math.gl/core": "^3.6.3",
+    "wavefront-obj-parser": "^2.0.1"
+  }
+}
